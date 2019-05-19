@@ -1,8 +1,22 @@
 # Nager.BedLight
 Arduino Bed light with motion detector
 
+## Features
 
+- Only activate Leds in the darkness
+- Very smooth light increase
 
+## Devolvement
+
+Set Board to Arduino Nano, Processor to ATmega328P (Old Bootloader), Programmer to AVRISP mkII,
+
+## Required Pins
+
+Pin | Type | Description
+--- | --- | ---
+2 | Input | Motion Sensor Pin
+6 | Output | Led control Pin
+A0 | Input | Light Sensor Pin
 
 ## Hardware Requirements
 
