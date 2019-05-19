@@ -1,6 +1,8 @@
 # Nager.BedLight
 Arduino Bed light with motion detector
 
+![Fritzing](doc/Sketch.png)
+
 ## Features
 
 - Only activate Leds in the darkness
