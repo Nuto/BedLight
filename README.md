@@ -6,7 +6,7 @@ Arduino Bed light with motion detector
 
 ## Hardware Requirements
 
-- [NeoPixel Stick - 8 x 5050 RGBW LEDs - Natural White - ~4500K](https://amzn.to/2EffkDJ)
+- [NeoPixel Stick - 8 x 5050 RGBW LEDs - Natural White (~4500K)](https://amzn.to/2EffkDJ)
 - [Motion Sensor HC-SR501](https://amzn.to/2EiD3D7)
 - [Light Sensor](https://amzn.to/2HCNzWL)
 - [Arduino Nano](https://amzn.to/2HCNXob)
