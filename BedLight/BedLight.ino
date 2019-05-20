@@ -24,8 +24,6 @@ int maxLedCount = 8;
 uint32_t color;
 int activeLedCount;
 
-int motionDetectionStatus = 0;
-
 void setup() {
   //Serial.begin(9600);
 
@@ -49,9 +47,7 @@ void loop() {
     }
   */
 
-  motionDetectionStatus = digitalRead(MOTIONSENSORPIN);
-
-  if (!motionDetectionStatus)
+  if (digitalRead(MOTIONSENSORPIN) == LOW)
   {
     if (currentBrightness > 0)
     {
